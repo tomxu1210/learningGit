@@ -3,4 +3,12 @@ first line
 
 
 
-i am line 6
+
+
+rebase feature-a -> master
+1. git checkout uat
+2. git pull uat
+3. git checkout feature-a
+4. git rebase uat
+5. git checkout uat
+6. git merge feature-a
